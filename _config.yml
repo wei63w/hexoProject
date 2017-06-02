@@ -2,7 +2,7 @@
 
 # Site
 title: 红萝卜
-subtitle: Develop share blog
+subtitle:
 description:
 author: 红萝卜
 language: zh-Hans
@@ -66,7 +66,21 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@106.14.185.73:/root/myblog.git
+  branch: master
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
