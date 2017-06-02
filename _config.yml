@@ -66,10 +66,21 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@106.14.185.73:/root/myblog.git
-  branch: master
-
+  # repo:git@github.com:wei63w/hexoProject.git
+  # repo: git@106.14.185.73:/root/myblog.git
+  # branch: master
+  # type: git
+  # repo: <repository url>
+  # branch: master
+  # message: is my post 
+  type: rsync
+  host: 106.14.185.73
+  user: root
+  root: /usr/share/nginx/html/public
+  port: 80
+  delete: true
+  verbose: true
+  ignore_errors: false
 
 
 
