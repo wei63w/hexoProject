@@ -164,9 +164,6 @@ social_icons:
  # directory(source/images): /images/myhead.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 avatar: /images/myhead.jpg
-#是否开启分享
-share_jia: true
-share_addthis: false
 
 
 # Table Of Contents in the Sidebar
@@ -315,8 +312,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname:hlb
+  enable: false
+  shortname:
   count: true
 
 # Hypercomments
