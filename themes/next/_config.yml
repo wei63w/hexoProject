@@ -231,10 +231,10 @@ save_scroll: false
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
 
-# Automatically Excerpt. Not recommend.
+# 查看显示全文选项
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -324,9 +324,9 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
-  appid:
-  appkey:
+  enable: true
+  appid: cyt38iSFN
+  appkey: d59d16ceec2bfb52b701ee15a9c52f1f
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
