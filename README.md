@@ -1,17 +1,22 @@
 # hexoProject
-hexoProject
 
+## 项目简介
+一个 Hexo 博客或静态站点项目。
 
-but now  I have a shit issue, who can help?
+## 目录
+- `_config.yml`
+- `package.json`
+- `README.md`
+- `scaffolds`
+- `source`
+- `themes`
 
+## 快速开始
+```bash
+npm install
+hexo s
+hexo clean && hexo g
 ```
-localhost:hexoProject genilex3$ hexo d
-INFO  Deploying: git
-INFO  Clearing .deploy_git folder...
-FATAL Something's wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
-Error: EACCES: permission denied, unlink '/Users/genilex3/Desktop/testTemp/hexoProject/.deploy_git/archives/index.html'
-FATAL EACCES: permission denied, unlink '/Users/genilex3/Desktop/testTemp/hexoProject/.deploy_git/archives/index.html'
-Error: EACCES: permission denied, unlink '/Users/genilex3/Desktop/testTemp/hexoProject/.deploy_git/archives/index.html'
-localhost:hexoProject genilex3$ 
 
-```
+## 说明
+- 这是一个 Hexo 站点，内容通常位于 `source` 与 `themes`。
